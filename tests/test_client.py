@@ -2,7 +2,7 @@ from typing import AsyncIterator, TypeVar
 
 import pytest
 
-from simple_sqs.queue_client import QueueClient
+from simple_async_sqs.queue_client import QueueClient
 
 
 @pytest.fixture

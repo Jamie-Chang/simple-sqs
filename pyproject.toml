@@ -1,7 +1,7 @@
 [project]
-name = "simple-sqs"
+name = "simple-async-sqs"
 version = "0.1.0"
-description = "Simple SQS client"
+description = "Simple async SQS client"
 readme = "README.md"
 authors = [{ email = "jamie.cheng.chang@gmail.com" }]
 requires-python = ">=3.10"
@@ -9,8 +9,8 @@ requires-python = ">=3.10"
 dependencies = ["aiobotocore"]
 
 [project.urls]
-Homepage = "https://github.com/Jamie-Chang/simple-sqs"
-Repository = "https://github.com/Jamie-Chang/simple-sqs"
+Homepage = "https://github.com/Jamie-Chang/simple-async-sqs"
+Repository = "https://github.com/Jamie-Chang/simple-async-sqs"
 
 [project.optional-dependencies]
 stubs = ["types-aiobotocore[sqs]"]
