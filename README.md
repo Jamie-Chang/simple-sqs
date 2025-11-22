@@ -23,7 +23,7 @@ Messages must be either ack'd or nack'd after processing.
 ```py
 import asyncio
 
-from simple_sqs.queue_client import QueueClient
+from simple_async_sqs.queue_client import QueueClient
 
 
 async def process(client: QueueClient):
